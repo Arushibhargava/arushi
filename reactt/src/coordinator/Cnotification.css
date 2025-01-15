@@ -1,0 +1,124 @@
+/* General Container Styles */
+.notification-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    background-color: #f5f5fc;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  
+  /* Header Section */
+  .notification-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .notification-header h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2c056d;
+    display: flex;
+    align-items: center;
+  }
+  
+  .notification-header h2 .icon-bell {
+    font-size: 1.5rem;
+    margin-right: 10px;
+  }
+  
+  /* Proposals Button */
+  .proposals-btn {
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .proposals-btn:hover {
+    background: #ddd;
+    border-color: #bbb;
+  }
+  
+  /* Form Section */
+  .notification-form {
+    background: #2c056d;
+    border-radius: 15px;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .notification-title,
+  .notification-description {
+    width: 90%;
+    font-size: 1rem;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #7c3aed;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .notification-title::placeholder,
+  .notification-description::placeholder {
+    color: #aaa;
+    font-style: italic;
+  }
+  
+  .notification-title {
+    height: 40px;
+  }
+  
+  .notification-description {
+    height: 100px;
+    resize: none;
+  }
+  
+  .send-btn {
+    background: #6de100;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .send-btn:hover {
+    background: #59c200;
+  }
+  
+  /* Proposals Page */
+  .proposals-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .proposals-container h2 {
+    font-size: 2rem;
+    color: #2c056d;
+    margin-bottom: 10px;
+  }
+  
+  .proposals-container p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
